@@ -13,6 +13,9 @@ y.setValue(2);
 double value = expr.eval();
 ```
 
+## Design
+<img src="./TypeHierarchy.png" width = 500>
+
 ## How to Run
 
 To run tests you should have installed `maven` and `java` on your computer. Run below commands to install them:
