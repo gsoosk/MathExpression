@@ -7,7 +7,7 @@ Define your expression using provided classes and then use `.eval()` or `deriv()
 ```java
 // (Cos(x) - 1) / y
 Expression expr = new Div(new Sub(new Cos(new Variable('x')), new Const(1)), new Variable('y'));
-Expression dx = expr.deriv();
+Expression dx = expr.deriv(x);
 x.setValue(0);
 y.setValue(2);
 double value = expr.eval();
